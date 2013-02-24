@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#apt-get install postgresql
+#apt-get install mysql-server
+# etc.
