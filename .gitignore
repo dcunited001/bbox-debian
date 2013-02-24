@@ -1,0 +1,5 @@
+.rvmrc
+Gemfile.lock
+iso/*.iso
+*.box
+definitions/*/setup/*.sh
