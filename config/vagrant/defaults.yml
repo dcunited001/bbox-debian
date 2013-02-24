@@ -1,0 +1,18 @@
+defaults:
+  box: <%= ENV['VG_BOX'] || 'debian_base' %>
+  host_name: <%= ENV['VG_HOST_NAME'] %>
+  boot_mode: <%= ENV['VG_BOOT_MODE'] || 'headless' || 'gui' %>
+  net:
+    mode: <%= ENV['VG_NET_MODE'] || 'hostonly' %>
+    ip: <%= ENV['VG_NET_IP'] || '10.10.10.10' %>
+    mask: <%= ENV['VG_NET_MASK'] || '255.255.255.0' %>
+  port: 
+    ssh: 2200
+    http: 8800
+  ssh:
+    username: <%= ENV['VG_SSH_USER'] || 'vagrant' %>
+    shell: <%= ENV['VG_SSH_SHELL'] || '/usr/bin/bash' %>
+  share:
+    type: nfs
+    hostpath: <%= ENV['VG_SHARE_HOST'] || def_host_share %>
+    guestpath: <%= ENV['VG_SHARE_GUEST'] || '/vshare' %>
