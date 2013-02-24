@@ -23,6 +23,7 @@ DEBIAN_SESSION =
                                                  "chef-client.sh",
                                                  "vagrant.sh",
                                                  "networking.sh",
+                                                 "bbox.sh",
                                                  "sudoers.sh",
                                                  "cleanup.sh",
                                                  "minimize.sh" ],
