@@ -14,10 +14,9 @@ basebox template and a link to the iso.
 - can be tweaked to support multiple vms.  it's just yaml.
 
 ### Set up custom setup scripts to run after main install
-- update the runlist in definitions/debian6.0.6/after_bento.sh
-- add the new runlist scripts to definitions/debian6.0.6/setup
-- if you want these saved in git, then remove this folder from .gitignore
-- or just use chef/puppet.  but these requires neither.
+- update the post-build script in definitions/debian6.0.6/bbox.sh
+- if you want this saved in git, then remove it from .gitignore
+- or just use chef/puppet.  but this requires neither.
 
 ### How to build baseboxes (view README.md)
 - https://github.com/dcunited001/veewee_arch-2012.10.06

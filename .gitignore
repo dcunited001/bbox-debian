@@ -2,4 +2,4 @@
 Gemfile.lock
 iso/*.iso
 *.box
-definitions/*/setup/*.sh
+definitions/*/bbox.sh
