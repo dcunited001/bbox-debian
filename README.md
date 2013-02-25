@@ -20,6 +20,7 @@ basebox template and a link to the iso.
 
 ### How to build baseboxes (view README.md)
 - https://github.com/dcunited001/veewee_arch-2012.10.06
+- for Ubuntu/Debian, don't select DVD as a package repository source
 
 ### Bento
 - https://github.com/dcunited001/bento
